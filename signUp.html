@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+
+    <style>
+
+p {
+
+text-align: "center";
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+input[type="submit"] {
+      font-size: 16px;
+      padding: 8px 16px;
+      background-color: GREEN;       /* changes the look of the submit button */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+
+    </style>
+    <h1 align="center">
+        
+        Mark's food delivery service
+
+    </h1>
+</head>
+
+<body>
+    <h2 align="center">
+        
+        Sign up
+
+    </h2>
+
+    <!-- Form created to receive account information through the user's inputs-->
+<form action = "loggedIn.php" method = "post">
+
+    <div class = "firstName" style="text-align: center;">
+    <p>First Name:</p>
+    <input type ="text" name = "first" size="40" /> 
+    </div>
+
+    <div class = "lastName" style="text-align: center;">
+    <p>Last Name:</p>
+    <input type ="text" name = "last" size="40" /> </p>
+    </div>
+
+    <div class = "userName" style="text-align: center;">
+    <p>Username:</p>
+    <input type ="text" name = "username" size="40" /> 
+    </div>
+
+    <div class = "passwordClass" style="text-align: center;">
+    <p>Password: (minimum length:10)</p>
+    <input type ="password" name = "password" size="40" /> </p>
+    </div>
+
+    <div class = "emailClass" style="text-align: center;">
+    <p>Email:</p>
+    <input type ="text" name = "email" size="40" /> </p>
+    </div>
+
+    <div class = "phoneNumber" style="text-align: center;">
+    <p>Phone number:</p>
+    <input type ="text" name = "phone" size="20" /> </p>
+    </div>
+
+    <p align="center"> <input type = "submit" value ="submit"/> </p>
+</form>
+</body>
+</html>
